@@ -18,6 +18,6 @@
   "homepage": "https://github.com/matt-ian-thomas/node-react#readme",
   "dependencies": {
     "express": "4.17.1",
-    "visualforce-remote-actions": "~1.1.3"
+    "visualforce-remote-actions": "1.1.3"
   }
 }
