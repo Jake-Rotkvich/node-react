@@ -1,4 +1,10 @@
 const express = require('express');
+const fs = require('fs');
+
+fs.readFile('test/apple/testing.txt', 'utf8', (err, data) => {
+	if (err) throw err;
+	console.log(data);
+  });
 
 const app = express();
 app.use(express.static('public'));
