@@ -1,4 +1,6 @@
 const express = require('express');
+const one = require('./routes/module');
+console.log(one);
 
 const app = express();
 app.use(express.static('public'));
